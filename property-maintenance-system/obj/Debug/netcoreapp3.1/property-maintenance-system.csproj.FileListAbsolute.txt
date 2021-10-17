@@ -1,0 +1,14 @@
+C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-system\bin\Debug\netcoreapp3.1\property-maintenance-system.exe
+C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-system\bin\Debug\netcoreapp3.1\property-maintenance-system.deps.json
+C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-system\bin\Debug\netcoreapp3.1\property-maintenance-system.runtimeconfig.json
+C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-system\bin\Debug\netcoreapp3.1\property-maintenance-system.runtimeconfig.dev.json
+C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-system\bin\Debug\netcoreapp3.1\property-maintenance-system.dll
+C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-system\bin\Debug\netcoreapp3.1\property-maintenance-system.pdb
+C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.csproj.AssemblyReference.cache
+C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.AssemblyInfoInputs.cache
+C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.AssemblyInfo.cs
+C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.csproj.CoreCompileInputs.cache
+C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.dll
+C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.pdb
+C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.genruntimeconfig.cache

@@ -30,15 +30,28 @@ Underhåll
     Plats
     Starttid
     Sluttid
-    pris
+    Kostnad
     Beskrivning
+    Uppskattad teknisk livslängd
     Namn
     id
     bifogat kvitton etc.
     Bifogad_fil (består av)
 
+    Sluttid för underhållet (skatteverket)
+        Tapet 1 år
+        Köksrenovering 10 år
+        Badrummsmatta 20 år
+        Tak 50 år
+
     Skapa ett underhåll
     Rediger underhåll
+
+Kostnad
+    int belopp
+    string valuta
+    int avskrivningsperiod
+    bool har avskrivningsperiod
 
 Bifogad fil
     bild
@@ -58,9 +71,3 @@ Kvitto : Bifogad fil
     inköpsplats
     tidpunkt
     köpdatum
-
-
-    jadjajajaj
-
-
-    dudersmurf
