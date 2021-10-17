@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\linka\\source\\repos\\property-maintenance-system\\property-maintenance-system\\property-maintenance-system.csproj": {}
+    "E:\\Google Drive\\Projekt\\Programmering\\property-maintenence-system\\property-maintenance-system\\property-maintenance-system\\property-maintenance-system.csproj": {}
   },
   "projects": {
-    "C:\\Users\\linka\\source\\repos\\property-maintenance-system\\property-maintenance-system\\property-maintenance-system.csproj": {
+    "E:\\Google Drive\\Projekt\\Programmering\\property-maintenence-system\\property-maintenance-system\\property-maintenance-system\\property-maintenance-system.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\linka\\source\\repos\\property-maintenance-system\\property-maintenance-system\\property-maintenance-system.csproj",
+        "projectUniqueName": "E:\\Google Drive\\Projekt\\Programmering\\property-maintenence-system\\property-maintenance-system\\property-maintenance-system\\property-maintenance-system.csproj",
         "projectName": "property-maintenance-system",
-        "projectPath": "C:\\Users\\linka\\source\\repos\\property-maintenance-system\\property-maintenance-system\\property-maintenance-system.csproj",
+        "projectPath": "E:\\Google Drive\\Projekt\\Programmering\\property-maintenence-system\\property-maintenance-system\\property-maintenance-system\\property-maintenance-system.csproj",
         "packagesPath": "C:\\Users\\linka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\linka\\source\\repos\\property-maintenance-system\\property-maintenance-system\\obj\\",
+        "outputPath": "E:\\Google Drive\\Projekt\\Programmering\\property-maintenence-system\\property-maintenance-system\\property-maintenance-system\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\linka\\AppData\\Roaming\\NuGet\\NuGet.Config",

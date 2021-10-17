@@ -12,3 +12,17 @@ C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-sys
 C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.dll
 C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.pdb
 C:\Users\linka\source\repos\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.genruntimeconfig.cache
+E:\Google Drive\Projekt\Programmering\property-maintenence-system\property-maintenance-system\property-maintenance-system\bin\Debug\netcoreapp3.1\property-maintenance-system.exe
+E:\Google Drive\Projekt\Programmering\property-maintenence-system\property-maintenance-system\property-maintenance-system\bin\Debug\netcoreapp3.1\property-maintenance-system.deps.json
+E:\Google Drive\Projekt\Programmering\property-maintenence-system\property-maintenance-system\property-maintenance-system\bin\Debug\netcoreapp3.1\property-maintenance-system.runtimeconfig.json
+E:\Google Drive\Projekt\Programmering\property-maintenence-system\property-maintenance-system\property-maintenance-system\bin\Debug\netcoreapp3.1\property-maintenance-system.runtimeconfig.dev.json
+E:\Google Drive\Projekt\Programmering\property-maintenence-system\property-maintenance-system\property-maintenance-system\bin\Debug\netcoreapp3.1\property-maintenance-system.dll
+E:\Google Drive\Projekt\Programmering\property-maintenence-system\property-maintenance-system\property-maintenance-system\bin\Debug\netcoreapp3.1\property-maintenance-system.pdb
+E:\Google Drive\Projekt\Programmering\property-maintenence-system\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.csproj.AssemblyReference.cache
+E:\Google Drive\Projekt\Programmering\property-maintenence-system\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.GeneratedMSBuildEditorConfig.editorconfig
+E:\Google Drive\Projekt\Programmering\property-maintenence-system\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.AssemblyInfoInputs.cache
+E:\Google Drive\Projekt\Programmering\property-maintenence-system\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.AssemblyInfo.cs
+E:\Google Drive\Projekt\Programmering\property-maintenence-system\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.csproj.CoreCompileInputs.cache
+E:\Google Drive\Projekt\Programmering\property-maintenence-system\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.dll
+E:\Google Drive\Projekt\Programmering\property-maintenence-system\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.pdb
+E:\Google Drive\Projekt\Programmering\property-maintenence-system\property-maintenance-system\property-maintenance-system\obj\Debug\netcoreapp3.1\property-maintenance-system.genruntimeconfig.cache
