@@ -1,12 +1,12 @@
 # property-maintenance-system
 
-# Krav
-*   Mest skriver i Python
+## Kravspecifikation
+*   Mest skriver i Python eller C#.
 *   Körs på egen server
 *   Finns en hemsida att surfa till
-*   För att hålla reda på och 
+*   För att hålla reda på och husunderhåll
 
-# Metod
+## Metod
 
 SOLID är en uppsättning principer för objektorienterad programmering och design. Principernas mål är att göra system enklare att utveckla, förstå, underhålla och utökas. De används ofta i kombination med testdriven utveckling och agil systemutveckling.
 
