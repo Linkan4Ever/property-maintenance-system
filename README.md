@@ -58,3 +58,6 @@ Kvitto : Bifogad fil
     inköpsplats
     tidpunkt
     köpdatum
+
+
+    jadjajajaj
