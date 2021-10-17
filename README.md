@@ -58,9 +58,3 @@ Kvitto : Bifogad fil
     inköpsplats
     tidpunkt
     köpdatum
-
-
-
-
-Jobba här
-test
