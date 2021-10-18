@@ -6,7 +6,7 @@ namespace property_maintenance_system
     {
         static void Main(string[] args)
         {
-            MaintenanceItem bytaTak = MaintenanceItem.Add("Vardagsrum", 79.9);
+            MaintenancePost bytaTak = MaintenancePost.Add("Vardagsrum", 79.9);
 
 
 
