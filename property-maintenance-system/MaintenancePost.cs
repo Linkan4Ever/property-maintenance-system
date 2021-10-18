@@ -26,7 +26,7 @@ namespace property_maintenance_system
         public DateTime EndTime { get; set; }
         public double Amount { get; set; }
         public string Description { get; set; }
-        public string TechnicalServiceLife { get; set; }
+        public int TechnicalServiceLife { get; set; }
         public string Name { get; set; }
         public int MaintenanceId { get; set; }
 
@@ -36,15 +36,23 @@ namespace property_maintenance_system
         }
         public override string ToString()
         {
-            string temp = "Location: " + Location + "\nAmount: " + Amount + "\nDescription: " + Description + "\nStarttid: " + StartTime;
+            string temp =   "Location: " + Location + 
+                            "\nAmount: " + Amount + 
+                            "\nDescription: " + Description + 
+                            "\nName: " + Name + 
+                            "\nTechnical Service Life: " + TechnicalServiceLife + 
+                            "\nStarttid: " + StartTime;
             return temp;
         }
 
-        public static MainenancePost Add(string location, double amount)
+        public static MainenancePost Add(string location, double amount, string description, string name, int technicalservicelife)
         {
          MainenancePost item = new MainenancePost();
             item.Location = location;
             item.Amount = amount;
+            item.Description = description;
+            item.Name = name;
+            item.TechnicalServiceLife = technicalservicelife;
             item.StartTime = DateTime.Now;
             return item;
         }

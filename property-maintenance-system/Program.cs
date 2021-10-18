@@ -6,13 +6,9 @@ namespace property_maintenance_system
     {
         static void Main(string[] args)
         {
-            MaintenancePost bytaTak = MaintenancePost.Add("Vardagsrum", 79.9);
+            MaintenancePost golvbyteBadrum1 = MaintenancePost.Add("vardagsrum", 79.9, "golvbyte", "Byte av golv", 7); 
 
-
-
-            //bytaTak.Location = "Vardagrummet";
-            //bytaTak.StartTime = DateTime.Now;
-            //bytaTak.Description = "Nu har vi bytt tak i vardagsrummet.";
+            // (string location, double amount, string description, string name, int technicalservicelife)
             Console.WriteLine(bytaTak.ToString());
         }
     }
