@@ -1,4 +1,7 @@
+from tkinter import E
 import mysql.connector
+
+# Connector to db.
 
 mydb = mysql.connector.connect(
     host="localhost",
@@ -6,17 +9,56 @@ mydb = mysql.connector.connect(
     password="g00gleplUs"
 )
 
-mycursor = mydb.cursor()
-mycursor.execute("SHOW DATABASES")
+menu_options = {
+    1: "Show Databases.", 
+    2: "Exit"
+}
 
-for x in mycursor:
-    print(x)
+def print_menu():
+    for key in menu_options.keys():
+        print(key, '--', menu_options[key])
 
-mycursor = mydb.cursor()
+def option1():
+     print('Handle option \'Option 1\'')
 
-mycursor.execute("SHOW TABLES")
+def option2():
+     print('Handle option \'Option 2\'')
 
-for x in mycursor:
-    print(x)
+if __name__=="__main__":
+    while(True):
+        print_menu()
+        option=""
+        try:
+            option = int(input("Enter your choice: "))
+            if option == 1:
+                option1()
+            elif option == 2:
+                option2()
+            else:
+                print("Invalid option. Please enter a number between 1 and 2.")            
+        except:
+            print("Wrong input. Please enter a number ...")
 
-# mycursor.execute("CREATE DATABASE mydatabase")
+
+
+
+        
+
+# mycursor = mydb.cursor()
+# mycursor.execute("SHOW DATABASES")
+
+# for x in mycursor:
+#     print(x)
+
+# mycursor = mydb.cursor()
+
+# mycursor.execute("SHOW TABLES")
+
+# for x in mycursor:
+#     print(x)
+
+# # mycursor.execute("CREATE DATABASE mydatabase")
+
+while True:
+    print_menu()
+    option = int(input("Enter your choice: "))
