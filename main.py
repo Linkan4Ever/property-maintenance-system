@@ -18,7 +18,7 @@ def print_menu():
     for key in menu_options.keys():
         print(key, '--', menu_options[key])
 
-def option1():
+def ShwDB():
     print('Handle option \'Option 1\'')
     mycursor = mydb.cursor()
     mycursor.execute("SHOW DATABASES")
@@ -37,7 +37,7 @@ if __name__=="__main__":
         try:
             option = int(input("Enter your choice: "))
             if option == 1:
-                option1()
+                ShwDB()
             elif option == 2:
                 option2()
                 break
