@@ -30,8 +30,22 @@ def ShwDB():
 def InitDB():
     print('Initialzation scripts for databases.')
     mycursor = mydb.cursor()
-    mycursor = execute("USE mydatabase")
-    mycursor = execute("CREATE TABLE Maintance (location VARCHAR(255), created ")
+    mycursor.execute("USE mydatabase")
+    
+    try: 
+        mycursor.execute("CREATE TABLE maintenance (location varchar(255), createdTime datetime, cost int, description varchar(255))")
+
+    except:
+        print("Table 'maintenance' already created.")
+        
+
+    #mycursor.execute("CREATE TABLE maintenance (location varchar(255), createdTime datetime, cost int, description varchar(255))")
+    mycursor.execute("SHOW TABLES")
+    print("Results: \n")
+
+    for x in mycursor:
+        print(x)
+    print("\n")
 
 
 
@@ -53,7 +67,7 @@ if __name__=="__main__":
             elif option == 3:
                 InitDB()
             else:
-                print("Invalid option. Please enter a number between 1 and 2.\n")            
+                print("Invalid option. Please enter a number between 1 and 3.\n")            
         except:
             print("Wrong input. Please enter a number ...\n")
 
