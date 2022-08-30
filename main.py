@@ -14,10 +14,13 @@ mydb = mysql.connector.connect(
 menu_options = {
     1: "Show Databases.", 
     2: "Exit", 
-    3: "Initialize Databases and tables."
+    3: "Initialize Databases and tables.",
+    4: "Create maintenance post.", 
+    5: "Show maintenance posts."
 }
 
 def print_menu():
+    print("")
     for key in menu_options.keys():
         print(key, '--', menu_options[key])
 
@@ -32,13 +35,14 @@ def ShwDB():
 def InitDB():
     print('Initialzation scripts for databases.')
     mycursor = mydb.cursor()
-    mycursor.execute("USE mydatabase")
+    
 
     try: 
         mycursor.execute("CREATE DATABASE mydatabase")
     except:
         print("Database already exists.")
     
+    mycursor.execute("USE mydatabase")
     try: 
         mycursor.execute("""CREATE TABLE maintenance (
         location varchar(255),
@@ -55,13 +59,34 @@ def InitDB():
         print("Table 'maintenance' already created.")
         
 
-    #mycursor.execute("CREATE TABLE maintenance (location varchar(255), createdTime datetime, cost int, description varchar(255))")
     mycursor.execute("SHOW TABLES")
     print("Results:")
 
     for x in mycursor:
         print(x)
     print("\n")
+
+def CreateMainenance():
+    print("Creating maintenance. ", end='')
+    mycursor = mydb.cursor()
+
+    try:
+        mycursor.execute("INSERT INTO mydatabase.maintenance (location, createdTime, description) VALUES ('Badrum', CURRENT_TIMESTAMP, 'Golvläggning')")
+        print("Maintenance post created.")
+    except:
+        print("Something went wrong when trying to insert maintenance post.")
+
+def ShowMaintenance():
+    print("Showing maintenance posts. ")
+    mycursor = mydb.cursor()
+    try:
+        mycursor.execute("SELECT * from mydatabase.maintenance")
+        print("Results:")
+        for x in mycursor:
+            print(x)
+        print("\n")
+    except:
+        print("Something went wrong when trying to show maintenance posts.")
 
 
 
@@ -82,6 +107,10 @@ if __name__=="__main__":
                 break
             elif option == 3:
                 InitDB()
+            elif option == 4:
+                CreateMainenance()
+            elif option == 5:
+                ShowMaintenance()
             else:
                 print("Invalid option. Please enter a number between 1 and 3.\n")            
         except:
