@@ -3,6 +3,8 @@ import mysql.connector
 
 # Connector to db.
 
+print("--- START ---")
+
 mydb = mysql.connector.connect(
     host="localhost",
     user="admin",
@@ -12,7 +14,7 @@ mydb = mysql.connector.connect(
 menu_options = {
     1: "Show Databases.", 
     2: "Exit", 
-    3: "Initialize Databases."
+    3: "Initialize Databases and tables."
 }
 
 def print_menu():
@@ -31,9 +33,23 @@ def InitDB():
     print('Initialzation scripts for databases.')
     mycursor = mydb.cursor()
     mycursor.execute("USE mydatabase")
+
+    try: 
+        mycursor.execute("CREATE DATABASE mydatabase")
+    except:
+        print("Database already exists.")
     
     try: 
-        mycursor.execute("CREATE TABLE maintenance (location varchar(255), createdTime datetime, cost int, description varchar(255))")
+        mycursor.execute("""CREATE TABLE maintenance (
+        location varchar(255),
+        startTime datetime,
+        endTime datetime,
+        createdTime datetime, 
+        cost int, 
+        description varchar(255), 
+        name varchar(255), 
+        id int
+        )""")
 
     except:
         print("Table 'maintenance' already created.")
@@ -41,7 +57,7 @@ def InitDB():
 
     #mycursor.execute("CREATE TABLE maintenance (location varchar(255), createdTime datetime, cost int, description varchar(255))")
     mycursor.execute("SHOW TABLES")
-    print("Results: \n")
+    print("Results:")
 
     for x in mycursor:
         print(x)
