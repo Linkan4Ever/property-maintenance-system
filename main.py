@@ -11,7 +11,8 @@ mydb = mysql.connector.connect(
 
 menu_options = {
     1: "Show Databases.", 
-    2: "Exit"
+    2: "Exit", 
+    3: "Initialize Databases."
 }
 
 def print_menu():
@@ -25,6 +26,14 @@ def ShwDB():
 
     for x in mycursor:
         print(x)
+
+def InitDB():
+    print('Initialzation scripts for databases.')
+    mycursor = mydb.cursor()
+    mycursor = execute("USE mydatabase")
+    mycursor = execute("CREATE TABLE Maintance (location VARCHAR(255), created ")
+
+
 
 def option2():
     print('Handle option \'Option 2\'')
@@ -41,6 +50,8 @@ if __name__=="__main__":
             elif option == 2:
                 option2()
                 break
+            elif option == 3:
+                InitDB()
             else:
                 print("Invalid option. Please enter a number between 1 and 2.\n")            
         except:
