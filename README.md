@@ -27,9 +27,9 @@ De fem principerna samlades av Robert C. Martin i början på 2000-talet, och ak
 
 
 Underhåll
-    Plats
-    Starttid
-    Sluttid
+    location
+    starttime
+    endtime
     Kostnad
     Beskrivning
     Uppskattad teknisk livslängd
