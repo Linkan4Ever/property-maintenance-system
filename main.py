@@ -3,7 +3,7 @@ import mysql.connector
 
 # Connector to db.
 
-print("--- START ---")
+print("=== Property Maintenance System ===")
 
 mydb = mysql.connector.connect(
     host="localhost",
@@ -13,19 +13,21 @@ mydb = mysql.connector.connect(
 
 menu_options = {
     1: "Show Databases.", 
-    2: "Exit", 
-    3: "Initialize Databases and tables.",
-    4: "Create maintenance post.", 
-    5: "Show maintenance posts."
+    2: "Initialize Databases and tables.",
+    3: "Create maintenance post.", 
+    4: "Show maintenance posts.",
+    99: "Exit" 
 }
 
 def print_menu():
     print("")
     for key in menu_options.keys():
-        print(key, '--', menu_options[key])
+        print(key, ': ', menu_options[key])
+    print("")
 
-def ShwDB():
-    print('Handle option \'Option 1\'')
+def ShowDatabases(): 
+    print("Showing databases.")
+
     mycursor = mydb.cursor()
     mycursor.execute("SHOW DATABASES")
 
@@ -90,9 +92,8 @@ def ShowMaintenance():
 
 
 
-def option2():
-    print('Handle option \'Option 2\'')
-    print("")
+def Exit():
+    print("Existing.")
 
 if __name__=="__main__":
     while(True):
@@ -100,16 +101,17 @@ if __name__=="__main__":
         option=""
         try:
             option = int(input("Enter your choice: "))
+            print("")
             if option == 1:
-                ShwDB()
-            elif option == 2:
-                option2()
+                ShowDatabases()
+            elif option == 99:
+                Exit()
                 break
-            elif option == 3:
+            elif option == 2:
                 InitDB()
-            elif option == 4:
+            elif option == 3:
                 CreateMainenance()
-            elif option == 5:
+            elif option == 4:
                 ShowMaintenance()
             else:
                 print("Invalid option. Please enter a number between 1 and 3.\n")            
