@@ -91,7 +91,6 @@ def ShowMaintenance():
         print("Something went wrong when trying to show maintenance posts.")
 
 
-
 def Exit():
     print("Existing.")
 
