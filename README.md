@@ -14,16 +14,16 @@
 ## Klassrelationer
 
 *   Underhåll
-    *   location
-    *   starttime
-    *   endtime
-    *   cost
-    *   description
-    *   estimated technical servicetime
-    *   name
-    *   id
-    *   attached documents
-    *   attached file
+    *   location (plats)
+    *   starttime (starttid)
+    *   endtime (stopptid)
+    *   cost (totalkostnad)
+    *   description (beskrivning)
+    *   estimated technical servicetime (uppskattad teknisk livslängd)
+    *   name (namn)
+    *   id (id)
+    *   attached documents (bifogade dokument)
+    *   attached file (bifogade fil)
     *   End time for maintenance, proposal
         *   Tapet, 1 år
         *   Köksrenovering, 10 år
