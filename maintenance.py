@@ -1,16 +1,17 @@
 class Maintenance:
-    def __init__(self, location, starttime, endtime, cost, description, esttechservtime, name):
+    def __init__(self, location, startTime, endTime, cost, description, esttechservlife, name):
         self.location = location
-        self.starttime = starttime
-        self.endtime = endtime
+        self.starttime = startTime
+        self.endtime = endTime
         self.cost = cost
         self.description = description
-        self.esttechservtime = esttechservtime
+        self.esttechservlife = esttechservlife
         self.name = name
+        self.timeCreated = 
 
-main_1 = Maintenance("Badrum", "2022-01-01", "2022-01-02", 4000, "testbeskrivning", 20, "Renovering av badrum")
+maint_1 = Maintenance("Badrum", "2022-01-01", "2022-01-02", 4000, "testbeskrivning", 20, "Renovering av badrum")
 
-print(main_1.cost)
+print(maint_1.cost)
 
 
 def create():
